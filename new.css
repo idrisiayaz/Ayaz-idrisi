@@ -1,0 +1,102 @@
+
+.container {
+    background-color: white;
+    padding: 3% 15%;
+    border: 10px solid black;
+}
+
+
+#title{
+    border: 10px solid black;
+    padding: 70px 0px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'sergeo ui', sans-serif;
+    line-height: 1.5;
+}
+hr {
+    border-top-style:dotted ;
+    border-top: 2px solid black ;
+    color: black;
+}
+
+#features {
+    background-color: black;
+    background-size: 100% 100%;
+    padding: 50px 50px;
+    margin-top: 70px;
+
+}
+#about-me {
+    background-color: black;
+    background-size: 100% 100%;
+    padding: 50px 50px;
+    margin-top: 40px;
+}
+#my-education {
+    background-color: black;
+    background-size: 100% 100%;
+    padding: 20px 50px;
+}
+#skills {
+    background-color: black;
+    background-size: 100% 100%;
+    padding: 50px 50px;
+}
+.name {
+    font-family: 'Bangers', cursive;
+    font-size: 8.1rem;
+    font-weight:lighter;
+    text-align: center;
+}
+#features2 {
+    background-size: 100% 100%;
+    padding: 50px 50px;
+}
+.nav-item {
+    color: black;
+    font-family: 'sergeo ui',sans-serif;    
+    font-weight: bold;
+
+}
+#press {
+    text-align: center;
+    padding-top: 30px;
+}
+.im {
+    width: 20%;
+}
+.name:hover , .name:active {
+    color: yellow;
+}
+.carousel-item {
+    height: 316px;
+    width: auto;
+}
+#footer {
+    background-color: black;
+    color: white;
+    padding: 1.5% 15%;
+    text-align: center;
+}
+.social {
+    margin: 10px 10px;
+}
+#testimonials-carousel {
+    width: 299px;
+}
+@media only screen and (max-width: 700px) {
+    #edc {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .slideshow {
+        position: relative;
+        left: -15%;
+    }
+}
+ 
